@@ -5,10 +5,11 @@ export const AccountContext = createContext();
 
 export const AccountProvider = ({ children }) => {
   const [accounts, setAccounts] = useState([
-    { id: 1, name: 'Virat Kohli', balance: 1000 },
-    { id: 2, name: 'Rohit Sharma', balance: 2000 },
-    { id: 3, name: 'Hardik Pandya', balance: 3000 },
-    { id: 4, name: 'MS Dhoni', balance: 4000 },
+    { id: 1, name: 'Anandh', balance: 10000 },
+    { id: 2, name: 'Mishra', balance: 15000 },
+    { id: 3, name: 'Rohan', balance: 20000 },
+    { id: 4, name: 'Shruthi ', balance: 14000 },
+    { id: 5, name: 'Smitha ', balance: 24000 },
   ]);
 
   const addAccount = (newAccount) => {
